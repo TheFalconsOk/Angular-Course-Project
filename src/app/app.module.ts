@@ -6,9 +6,9 @@ import { ShoppingComponent } from './shopping/shopping.component';
 import { RecipeBookComponent } from './recipe-book/recipe-book.component';
 import { SListComponent } from './shopping/s-list/s-list.component';
 import { ListEditComponent } from './shopping/list-edit/list-edit.component';
-import { RListComponent } from './recipeBook/r-list/r-list.component';
-import { RItemsComponent } from './recipeBook/r-items/r-items.component';
-import { RDetailsComponent } from './recipeBook/r-details/r-details.component';
+import { RListComponent } from './recipe-book/r-list/r-list.component';
+import { RItemsComponent } from './recipe-book/r-items/r-items.component';
+import { RDetailsComponent } from './recipe-book/r-details/r-details.component';
 import { HeaderComponent } from './header.component';
 
 
