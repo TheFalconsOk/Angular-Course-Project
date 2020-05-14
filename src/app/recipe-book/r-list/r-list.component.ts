@@ -8,6 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RListComponent implements OnInit {
   recipes: Recipe[] = [
+    new Recipe('A Test recipe', 'this recipe is a test of my structur', 'https://dinnerthendessert.com/wp-content/uploads/2017/02/Panda-Express-Beijing-Beef.jpg'),
     new Recipe('A Test recipe', 'this recipe is a test of my structur', 'https://dinnerthendessert.com/wp-content/uploads/2017/02/Panda-Express-Beijing-Beef.jpg')
   ];
 
