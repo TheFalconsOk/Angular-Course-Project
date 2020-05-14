@@ -6,5 +6,6 @@ import { templateJitUrl } from '@angular/compiler';
   templateUrl: './header.component.html'})
 
 export class HeaderComponent {
+  collapsed = true;
 
 }
