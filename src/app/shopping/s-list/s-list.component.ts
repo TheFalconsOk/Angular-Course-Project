@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./s-list.component.css']
 })
 export class SListComponent implements OnInit {
+  ingredients = [];
 
   constructor() { }
 
