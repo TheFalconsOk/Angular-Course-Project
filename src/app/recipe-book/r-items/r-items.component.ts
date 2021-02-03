@@ -1,6 +1,6 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
+import { Recipe } from '../recipe.model';
 
-import { Recipe } from '../recipe.model'
 
 @Component({
   selector: 'app-r-items',
@@ -9,8 +9,13 @@ import { Recipe } from '../recipe.model'
 })
 export class RItemsComponent implements OnInit {
   @Input() recipe: Recipe;
+  @Output() recipeSelected = new EventEmitter<void>();
 
-  constructor() { }
+  recipeClicked() {
+    console.log("clicked")
+    this.recipeSelected.emit()
+  }
+  
 
   ngOnInit(): void {
   }
