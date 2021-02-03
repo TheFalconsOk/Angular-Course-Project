@@ -6,7 +6,7 @@ import { templateJitUrl } from '@angular/compiler';
   templateUrl: './header.component.html'})
 
 export class HeaderComponent {
-  @Output featureSelected = new EventEmitter<string>();
+  @Output() featureSelected = new EventEmitter<string>();
 
   collapsed = true;
   onSelect(feature: string) {
