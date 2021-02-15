@@ -15,5 +15,7 @@ export class SListComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  onIngredientAdded(newIngredient: Ingredient) {
+  this.ingredients.push(newIngredient)}
 
 }
